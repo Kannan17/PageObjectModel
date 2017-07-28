@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="SuiteName" verbose="2" > 
+    <test name="WGreen Test"> 
+    <classes> 
+      <class name="com.webapp.wgreen.pom.testcases.MyAccountTest"/> 
+    </classes> 
+  </test> <!-- TestB --> 
+  <test name="ContactLense"> 
+    <classes> 
+      <class name="com.webapp.wgreen.pom.testcases.ContactLensesTest"/> 
+    </classes> 
+  </test> <!-- TestB --> 
+  <test name="Health"> 
+    <classes> 
+      <class name="com.webapp.wgreen.pom.testcases.HealthnServiceTest"/> 
+    </classes> 
+  </test> <!-- TestB --> 
+   </suite> <!-- SuiteName -->
